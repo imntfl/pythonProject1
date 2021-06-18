@@ -17,7 +17,6 @@ for x in soup.find_all('a', href=True):
 def reverse(lst):
     return lst[::-1]
 
-
 print('Выберите имя будущего ребенка (1 - муж, 2 - жен, 3 - случайное имя): ')
 
 b = str(input())
@@ -33,3 +32,8 @@ elif b == '3':
 
 else:
     print('Вы ошиблись')
+
+    
+    
+    
+    
