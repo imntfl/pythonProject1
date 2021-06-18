@@ -16,7 +16,7 @@ for x in soup.find_all('a', href=True):
 
 def reverse(lst):
     return lst[::-1]
-print(*reverse(z), sep=' ')
+
 
 print('Выберите имя будущего ребенка (1 - муж, 2 - жен, 3 - случайное имя): ')
 
